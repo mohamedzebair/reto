@@ -1,0 +1,84 @@
+.contenedor{
+    a{
+        text-decoration: none;
+    }
+    div{
+        min-height: 200px;
+        align-content: inherit;
+    }
+    h2, p{
+        color:white;
+    }
+    .divEmpresas{
+        p{
+            grid-area: descripcionEmp;
+        }
+        background-color: #37A8CA;
+        grid-area: divEmpresas;
+        display: grid;
+        grid-template-areas:
+            "empresasTitle"
+            "paraEmpresas"
+            "descripcionEmp";
+        grid-template-columns:1fr;
+        text-align: center;
+        
+    }
+    .divAlumnos{
+        p{
+            grid-area: descripcionAl;
+        }
+        background-color: #A39F9C;
+        grid-area:divAlumnos;
+        display: grid;
+        grid-template-areas:
+            "alumnosTitle"
+            "paraAlumnos"
+            "descripcionAl";
+        grid-template-columns:1fr;
+        text-align: center;
+    }
+    .empresasTitle{
+        background-color: #37A8CA;
+        grid-area: empresasTitle;
+    }
+    .alumnosTitle{
+        background-color: #A39F9C;
+        grid-area:alumnosTitle;
+    }
+    .empresasTitle, .alumnosTitle{
+        margin: 0;
+    }
+    .paraEmpresas{
+        grid-area: paraEmpresas;
+        background-image: url('../imagenes/fondoDivEmpresas.jpg');
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+    .paraAlumnos{
+        grid-area: paraAlumnos;
+        background-color: rgba(37, 117, 245, 0.767);
+        background-image: url('../imagenes/fondoDivAlumnos.jpg');
+        background-size: cover;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "divEmpresas divAlumnos";
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    grid-gap: 3%;
+    margin: 2%;
+}
+/////Aquí van todas las media Query////
+@media (max-width:991px){
+    .contenedor{
+        grid-template-areas:
+        "divEmpresas"
+        "divAlumnos";
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}

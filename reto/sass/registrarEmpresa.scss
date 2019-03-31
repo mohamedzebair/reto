@@ -1,0 +1,35 @@
+.InfoValidacionJS{
+    width: 80%;
+    margin: 1% auto;
+    padding: 4px;
+    h4{
+        color:red;
+        text-align: center;
+    }
+    ol{
+        li{
+            padding: 0;
+            margin:0;
+            color: red;
+            span{
+                color:black;
+            }
+        }
+    }
+    p{
+        padding: 0;
+        margin:0;
+        color: red;
+        span{
+            color:black;
+        } 
+    }
+    .insertadoBien{
+        padding: 0;
+        margin:0;
+        color: green;
+    }
+}
+.InfoValidacionJS:empty{
+    display: none;
+}

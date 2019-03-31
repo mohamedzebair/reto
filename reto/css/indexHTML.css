@@ -1,0 +1,60 @@
+.contenedor {
+  display: grid;
+  grid-template-areas: "divEmpresas divAlumnos";
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  grid-gap: 3%;
+  margin: 2%; }
+  .contenedor a {
+    text-decoration: none; }
+  .contenedor div {
+    min-height: 200px;
+    align-content: inherit; }
+  .contenedor h2, .contenedor p {
+    color: white; }
+  .contenedor .divEmpresas {
+    background-color: #37A8CA;
+    grid-area: divEmpresas;
+    display: grid;
+    grid-template-areas: "empresasTitle" "paraEmpresas" "descripcionEmp";
+    grid-template-columns: 1fr;
+    text-align: center; }
+    .contenedor .divEmpresas p {
+      grid-area: descripcionEmp; }
+  .contenedor .divAlumnos {
+    background-color: #A39F9C;
+    grid-area: divAlumnos;
+    display: grid;
+    grid-template-areas: "alumnosTitle" "paraAlumnos" "descripcionAl";
+    grid-template-columns: 1fr;
+    text-align: center; }
+    .contenedor .divAlumnos p {
+      grid-area: descripcionAl; }
+  .contenedor .empresasTitle {
+    background-color: #37A8CA;
+    grid-area: empresasTitle; }
+  .contenedor .alumnosTitle {
+    background-color: #A39F9C;
+    grid-area: alumnosTitle; }
+  .contenedor .empresasTitle, .contenedor .alumnosTitle {
+    margin: 0; }
+  .contenedor .paraEmpresas {
+    grid-area: paraEmpresas;
+    background-image: url("../imagenes/fondoDivEmpresas.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; }
+  .contenedor .paraAlumnos {
+    grid-area: paraAlumnos;
+    background-color: rgba(37, 117, 245, 0.767);
+    background-image: url("../imagenes/fondoDivAlumnos.jpg");
+    background-size: cover; }
+
+@media (max-width: 991px) {
+  .contenedor {
+    grid-template-areas: "divEmpresas" "divAlumnos";
+    grid-template-columns: 1fr;
+    text-align: center; } }
+
+/*# sourceMappingURL=indexHTML.css.map */

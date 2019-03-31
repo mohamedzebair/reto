@@ -1,0 +1,23 @@
+.form-signin{
+    width: 490px;
+    margin: 1% auto;
+    padding: 30px;
+    box-sizing: border-box;
+    label, input, img, button{
+        margin: 3% auto;
+        box-sizing: border-box;
+    }
+}
+///////aqui están todas las Media query/////
+@media (max-width:390px){
+    .form-signin{
+        width: 300px;
+        margin: 1% auto;
+        padding: 30px;
+        box-sizing: border-box;
+        label, input, img, button{
+            margin: 4% auto;
+            box-sizing: border-box;
+        }
+    }
+}

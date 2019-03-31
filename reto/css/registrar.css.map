@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,eAAI;EACA,aAAa,EAAE,EAAE;;AAGzB,iBAAiB;EACb,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,QAAQ;EAChB,OAAO,EAAE,GAAG;EAKZ;;;;;;;;;;;;;;;;;;;;;;;;;;KA0BG;EA9BH,wBAAM;IACF,OAAO,EAAE,GAAG;IACZ,MAAM,EAAC,GAAG;;AA8BlB,uBAAuB;EACnB,OAAO,EAAE,IAAI",
+"sources": ["../sass/registrar.scss"],
+"names": [],
+"file": "registrar.css"
+}

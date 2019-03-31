@@ -1,0 +1,42 @@
+.container .row {
+  margin-bottom: 2%; }
+
+.InfoValidacionJS {
+  width: 80%;
+  margin: 2px auto;
+  padding: 2px;
+  /*h4{
+      color:red;
+      text-align: center;
+  }
+  ol{
+      li{
+          padding: 0;
+          margin:0;
+          color: red;
+          span{
+              color:black;
+          }
+      }
+  }
+  p{
+      padding: 0;
+      margin:0;
+      color: red;
+      span{
+          color:black;
+      } 
+  }
+  .insertadoBien{
+      padding: 0;
+      margin:0;
+      color: green;
+  }*/ }
+  .InfoValidacionJS .alert {
+    padding: 2px;
+    margin: 4px; }
+
+.InfoValidacionJS:empty {
+  display: none; }
+
+/*# sourceMappingURL=registrar.css.map */
